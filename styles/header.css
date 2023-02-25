@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center center;
     position: relative;
+    z-index: 2;
 }
 
 .container {
