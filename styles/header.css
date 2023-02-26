@@ -16,6 +16,11 @@
     display: none;
 }
 
+.container__botao ~ label {
+    display: flex;
+    align-items: center;
+}
+
 .cabecalho__menu-hamburguer {
     width: 24px;
     height: 24px;
@@ -25,6 +30,12 @@
     background-size: auto;
     display: inline-block;
 }
+
+.container__link {
+    display: flex;
+    justify-content: center;
+}
+
 .container__imagem {
     padding: 1em;
 }

@@ -33,8 +33,14 @@
 .card__descricao {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 0.5em;
     gap: 1em;
+    
+}
+
+.descricao {
+    width: calc(50% - 0.5em);
 }
 
 .descricao__titulo {
@@ -55,6 +61,7 @@
 
 .descricao__imagem {
     width: calc(50% - 0.5em);
+    /* height: min-content; */
 }
 
 .card__botoes {
